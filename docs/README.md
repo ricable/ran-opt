@@ -1,4 +1,4 @@
-# RAN-OPT: Unified AI-Powered RAN Intelligence and Optimization Platform
+# RAN-OPT Documentation
 
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -9,9 +9,69 @@
 
 RAN-OPT is a comprehensive neural network-based platform for 5G/6G Radio Access Network (RAN) optimization, featuring **15 specialized AI agents** working in parallel to deliver autonomous network management. Built in Rust for maximum performance and safety.
 
-## 🏗️ Architecture
+## 📚 Documentation Structure
 
-The platform is organized into five main epics with 15 autonomous agents:
+### Getting Started
+- [Installation Guide](getting-started/installation.md) - System requirements and setup
+- [Quick Start](getting-started/quick-start.md) - Get up and running quickly
+- [Examples](getting-started/examples.md) - Usage examples and tutorials
+
+### Architecture
+- [System Overview](architecture/overview.md) - High-level system design
+- [Module Structure](architecture/modules.md) - Individual module documentation
+- [Data Flow](architecture/data-flow.md) - Data processing pipeline
+
+### Modules
+
+#### Platform Foundation Services (PFS)
+- [PFS Overview](modules/pfs/README.md) - Core platform services
+- [PFS Core](modules/pfs/core.md) - ML Core Service with neural networks
+- [PFS Data](modules/pfs/data.md) - Data ingestion pipelines
+- [PFS Twin](modules/pfs/twin.md) - Digital Twin with Graph Neural Networks
+- [PFS GenAI](modules/pfs/genai.md) - Generative AI integration
+- [PFS Logs](modules/pfs/logs.md) - Log anomaly detection
+
+#### Dynamic Traffic & Mobility Management (DTM)
+- [DTM Overview](modules/dtm/README.md) - Traffic and mobility management
+- [DTM Traffic](modules/dtm/traffic.md) - Traffic prediction with LSTM/GRU networks
+- [DTM Mobility](modules/dtm/mobility.md) - Mobility pattern recognition
+- [DTM Power](modules/dtm/power.md) - Energy optimization
+
+#### Anomaly & Fault Management (AFM)
+- [AFM Overview](modules/afm/README.md) - Anomaly detection and management
+- [AFM Detect](modules/afm/detect.md) - Multi-modal anomaly detection
+- [AFM Correlate](modules/afm/correlate.md) - Cross-domain evidence correlation
+- [AFM RCA](modules/afm/rca.md) - Root cause analysis
+
+#### Autonomous Operations & Self-Healing (AOS)
+- [AOS Heal](modules/aos/heal.md) - Self-healing action generation
+
+#### RIC-Based Control (RIC)
+- [RIC Overview](modules/ric/README.md) - RAN Intelligent Controller
+- [RIC TSA](modules/ric/tsa.md) - Traffic steering rApp
+- [RIC Conflict](modules/ric/conflict.md) - Policy conflict resolution
+
+### APIs
+- [Rust API Reference](apis/rust-api.md) - Complete API documentation
+- [API Examples](apis/examples.md) - Code examples and usage patterns
+
+### Deployment
+- [Configuration](deployment/configuration.md) - System configuration
+- [CUDA Setup](deployment/cuda-setup.md) - GPU acceleration setup
+- [Performance Tuning](deployment/performance-tuning.md) - Optimization guidelines
+
+### Development
+- [Contributing](development/contributing.md) - How to contribute
+- [Testing](development/testing.md) - Testing strategies and tools
+- [Benchmarking](development/benchmarking.md) - Performance benchmarks
+
+### Reference
+- [Glossary](reference/glossary.md) - Technical terms and definitions
+- [Troubleshooting](reference/troubleshooting.md) - Common issues and solutions
+
+## 🏗️ Platform Architecture
+
+The platform consists of 15 autonomous AI agents organized into five main epics:
 
 ### 📊 Platform Foundation Services (PFS)
 - **Agent-PFS-Core**: ML Core Service with high-performance neural networks
@@ -63,47 +123,7 @@ The platform is organized into five main epics with 15 autonomous agents:
 - **Performance**: `rayon`, `crossbeam`, `mimalloc`, `packed_simd_2`
 - **Monitoring**: `prometheus`, `tracing`, `metrics`
 
-## 🚀 Quick Start
-
-### Prerequisites
-- Rust 1.70+
-- CUDA 11.8+ (optional, for GPU acceleration)
-- 16GB+ RAM recommended
-
-### Installation
-```bash
-git clone https://github.com/ran-opt/ran-opt.git
-cd ran-opt
-cargo build --release
-```
-
-### Running the Platform
-```bash
-# Basic usage
-cargo run --release
-
-# With GPU acceleration
-cargo run --release --features gpu
-
-# With custom configuration
-cargo run --release -- --config config.toml --threads 16 --gpu
-```
-
-### Configuration
-Create a `config.toml` file:
-```toml
-[platform]
-gpu_enabled = true
-worker_threads = 16
-max_batch_size = 1024
-
-[monitoring]
-metrics_port = 9090
-tracing_enabled = true
-log_level = "info"
-```
-
-## 📊 Performance Benchmarks
+## 📈 Performance Benchmarks
 
 ### Neural Network Performance
 | Operation | CPU (ms) | GPU (ms) | Speedup |
@@ -123,77 +143,6 @@ log_level = "info"
 - **Traffic Prediction**: <1ms per decision
 - **Anomaly Detection**: <5ms per sample
 - **Policy Generation**: <10ms per policy
-
-## 🧪 Testing
-
-### Unit Tests
-```bash
-cargo test
-```
-
-### Integration Tests
-```bash
-cargo test --test integration
-```
-
-### Performance Benchmarks
-```bash
-cargo bench
-```
-
-### Test Coverage
-```bash
-cargo tarpaulin --out html
-```
-
-## 📈 Monitoring & Observability
-
-### Prometheus Metrics
-- Agent performance metrics
-- Processing latency and throughput
-- Memory and CPU usage
-- Neural network accuracy
-
-### Distributed Tracing
-- Request flow through all agents
-- Performance bottleneck identification
-- Error propagation tracking
-
-### Health Checks
-- Agent health monitoring
-- Service dependency checking
-- Automatic recovery mechanisms
-
-## 🔧 Development
-
-### Building Individual Agents
-```bash
-# Build specific agent
-cargo build --bin pfs-core
-cargo build --bin dtm-traffic
-cargo build --bin afm-detect
-```
-
-### Running Benchmarks
-```bash
-# Neural network benchmarks
-cargo bench neural_networks
-
-# Data processing benchmarks
-cargo bench data_processing
-
-# Memory usage analysis
-cargo bench memory_usage
-```
-
-### Documentation
-```bash
-# Generate documentation
-cargo doc --open
-
-# Generate performance reports
-cargo bench --bench neural_networks -- --output-format html
-```
 
 ## 🎯 Use Cases
 
@@ -215,39 +164,13 @@ cargo bench --bench neural_networks -- --output-format html
 - **Smart Cities**: Municipal infrastructure optimization
 - **Emergency Services**: Critical communication systems
 
-## 📚 Documentation
-
-For comprehensive documentation, see the [@docs](@docs/) directory:
-
-### Quick Links
-- [📖 Full Documentation](@docs/README.md) - Complete documentation overview
-- [🚀 Quick Start](@docs/getting-started/quick-start.md) - Get started in minutes
-- [💾 Installation Guide](@docs/getting-started/installation.md) - Setup instructions
-- [🏗️ Architecture Overview](@docs/architecture/overview.md) - System design
-- [🔧 Module Documentation](@docs/modules/) - Individual module guides
-
-### API Reference
-- [Rust API Reference](@docs/apis/rust-api.md) - Complete API documentation
-- [API Examples](@docs/apis/examples.md) - Usage examples
-
-### Deployment
-- [Configuration Guide](@docs/deployment/configuration.md) - System configuration
-- [Performance Tuning](@docs/deployment/performance-tuning.md) - Optimization guide
-- [CUDA Setup](@docs/deployment/cuda-setup.md) - GPU acceleration
-
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Implement your changes
-4. Add tests and documentation
-5. Submit a pull request
-
-### Development Standards
-- Follow Rust best practices
-- Maintain test coverage >90%
-- Document all public APIs
-- Include performance benchmarks
+See [Contributing Guide](development/contributing.md) for detailed information on:
+- Development standards
+- Code review process
+- Testing requirements
+- Documentation standards
 
 ## 📄 License
 
