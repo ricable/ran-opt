@@ -1,5 +1,0 @@
-cargo:rerun-if-changed=build.rs
-cargo:rustc-cfg=target_feature="avx2"
-cargo:rustc-cfg=target_feature="fma"
-cargo:rustc-link-lib=blas
-cargo:rustc-link-lib=lapack

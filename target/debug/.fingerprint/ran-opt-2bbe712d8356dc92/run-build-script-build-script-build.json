@@ -1,1 +1,0 @@
-{"rustc":11410426090777951712,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[8150216916988894967,"build_script_build",false,17125507092404024287]],"local":[{"RerunIfChanged":{"output":"debug/build/ran-opt-2bbe712d8356dc92/output","paths":["build.rs"]}}],"rustflags":["--allow","unknown_lints"],"config":0,"compile_kind":0}
