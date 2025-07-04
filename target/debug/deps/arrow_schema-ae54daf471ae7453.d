@@ -1,0 +1,11 @@
+/home/cedric/dev/github.com/ran-opt/target/debug/deps/arrow_schema-ae54daf471ae7453.d: /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/lib.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/datatype.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/datatype_parse.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/error.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/field.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/fields.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/schema.rs
+
+/home/cedric/dev/github.com/ran-opt/target/debug/deps/libarrow_schema-ae54daf471ae7453.rmeta: /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/lib.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/datatype.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/datatype_parse.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/error.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/field.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/fields.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/schema.rs
+
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/lib.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/datatype.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/datatype_parse.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/error.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/field.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/fields.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-schema-53.4.1/src/schema.rs:

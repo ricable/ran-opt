@@ -1,0 +1,20 @@
+/home/cedric/dev/github.com/ran-opt/target/debug/deps/snap-58bef5900e2a1fde.d: /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/lib.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/bytes.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/compress.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/crc32.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/crc32_table.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/decompress.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/error.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/frame.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/raw.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/read.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/tag.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/write.rs /home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out/crc32_table.rs /home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out/tag.rs
+
+/home/cedric/dev/github.com/ran-opt/target/debug/deps/libsnap-58bef5900e2a1fde.rmeta: /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/lib.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/bytes.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/compress.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/crc32.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/crc32_table.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/decompress.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/error.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/frame.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/raw.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/read.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/tag.rs /home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/write.rs /home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out/crc32_table.rs /home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out/tag.rs
+
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/lib.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/bytes.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/compress.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/crc32.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/crc32_table.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/decompress.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/error.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/frame.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/raw.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/read.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/tag.rs:
+/home/cedric/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snap-1.1.1/src/write.rs:
+/home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out/crc32_table.rs:
+/home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out/tag.rs:
+
+# env-dep:OUT_DIR=/home/cedric/dev/github.com/ran-opt/target/debug/build/snap-7b54d31646a1725b/out
